@@ -1,0 +1,8 @@
+#flags{
+
+}
+
+ul#flags li{
+    display: inline-block;
+    margin: 2em;
+}
