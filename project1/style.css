@@ -5,3 +5,11 @@
     text-align: center;
     padding: 10px;
 }
+
+#total{
+    color: red;
+}
+.center:hover{
+    transition: 0.3s;
+    background-color: aquamarine;
+}
