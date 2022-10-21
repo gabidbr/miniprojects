@@ -53,4 +53,5 @@ function regeneratePosts(){
         createPost();
 }
 
+
 getPosts();
