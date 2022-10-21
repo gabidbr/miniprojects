@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <script src="main.js">
     </script>
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Social Media</title>
 </head>
 <body>
-    <h1 id="title">Social media</h1>
-    <ul id="post-list"></ul>
+<h1 id="title">Social media</h1>
+<h2>Write a post:</h2>
+<label for="post-name"><h3>Name:</h3></label><input type="text" id="post-name">
+<label for="post-title"><h3>Title:</h3></label><input type="text" id="post-title">
+<label for="post-description"><h3>Description:</h3></label><textarea id="post-description" rows="4"
+                                                                     cols="50"></textarea>
+<button id="post" onclick="regeneratePosts()">POST</button>
+<ul id="post-list"></ul>
 </body>
 </html>
